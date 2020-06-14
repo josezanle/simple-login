@@ -1,0 +1,86 @@
+
+/*Hola, en esta ocacion les traigo,un simple registro de usuario,con un background suave, y 2 tipografias.*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+/*En el Body aplique Css Flexbox, para centrar la tarjeta*/
+
+body{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.card{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    border:1px solid black;
+    box-shadow: 10px 38px 26px 0px rgba(84,81,84,1);
+    width: 300px;
+    height: 400px;
+    background: white;
+}
+/*SeatherShop*/
+.nombre h3 {
+    font-family: 'Ubuntu', sans-serif;
+}
+/*Registro*/
+.sign{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+.name {
+    margin: .5em;
+    text-transform: capitalize;
+}
+.password{
+    margin: .5em;
+}
+/*Loggin*/
+.login{
+    background:black;
+    display: block;
+    color:white;
+    box-shadow: 3px 3px 15px silver;
+    text-transform: capitalize;
+    border-radius: 1em;
+    padding: .2em 2em;
+    font-size: .8em;
+    margin: .5em 1em;
+    transition: all 500ms;
+}
+.login:hover {
+    cursor: pointer;
+    background:silver;
+    color:rgb(83, 81, 81);
+}
+/*Login with Facebook!*/
+.login2 p{
+    text-transform: capitalize;
+    font-size: .5em;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    margin: 1em;
+}
+/*Forget you password?*/
+.forgot-pass p {
+    text-transform: capitalize;
+    font-size: .5em;
+    letter-spacing: .2em;
+    color: silver;
+    margin: 5em 0 0 0;
+    cursor: pointer;
+}
+/*Ty for Watch*/
